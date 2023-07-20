@@ -1,0 +1,41 @@
+<html>
+    <head></head>
+<title>Process Overflow</title>
+    <link rel="stylesheet" href="process.css">
+<ul>
+  <li><a class="active" href="login.html">Home</a></li>
+  <li><a href="process.html">Process</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  <li><a href="aboutus.html">About</a></li>
+</ul>
+    
+<body>
+    <div id="header">Process Overflow</div>
+    <div id="container">
+    <p>OUR WORKFLOW</p>
+<div class="m1"><br>User has to Register to the system as a new user<br>
+<br>
+    <div class="y">1)	Servicing Customer<br></div>
+•	You can login as service customer to login you have to enter valid username and password.
+•	After login you can select the required automobile  service like breakdown, battery jumpstart, etc.
+•	You can add location and service time details.
+•	Now you have to confirm the booking.
+•	Now you have to do online payment.
+•	Vendor will be allotted to you and your request will be confirmed. 
+•	Now you can log out successfully.
+<br>
+<br>
+    <div class="y">2.Transportation<br></div>
+The materials are loaded into our specialized carriers and brought to our storage and dismantling facility on the outskirts of Pune<br>
+    <br>
+    <div class="y">3.Segregation<br></div>
+Hazardous substances are identified and separated out.<br>
+<br>
+    <div class="y">4.Dismantling<br></div>
+The systems are dismantled into smaller parts/components so as to facilitate recycling.<br>
+<br>
+    <div class="y">5.Recycling<br></div>
+    Actual recycling in an eco-friendly way takes place as per stringent norms laid down by the authorities.<br></div>
+    </div>
+</body>
+</html>

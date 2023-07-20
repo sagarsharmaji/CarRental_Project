@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+
+<style>
+body
+{
+  background: url("bg.jpg") no-repeat center center fixed;
+        background-size: cover;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+<div class="logo">CRMS</div>
+</nav></div>
+ <div class="loginbox">
+    <img src="logo.png" class="avatar">
+        <h1>Search Customer Details</h1>
+        <form name="myform" method="get" action="search_cust.jsp">
+        <p>Enter email</p>
+            <input type="text" name="email" placeholder="Enter email id" required>
+            <br>
+            <br>
+            <input type="submit" name="submit">
+        </form>
+    </div>
+</body>
+</html>

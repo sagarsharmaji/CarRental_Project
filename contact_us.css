@@ -1,0 +1,72 @@
+body {
+    background: url("bg.jpg") no-repeat center center fixed;
+          background-size: cover;
+     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+          height: 100vh;
+          color:white;
+          opacity: 0.8;
+  }
+
+input[type=text], select, textarea {
+    width: 60%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(230, 198, 95); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+label{
+    color: #220;
+}
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #69e06f;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 9px;
+    background-color: #f8f4f0;
+    padding: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    min-width:1500px;
+    margin: 0;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: #220;
+  }
+  
+  li {
+    float: left;
+    display: inline;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #160;
+  }

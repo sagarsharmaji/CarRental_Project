@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+<ul>
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="process.html">Process</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  <li><a href="aboutus.html">About</a></li>
+</ul>
+
+<script>
+function validate()
+{
+	var email=document.myform.scemail.value;
+	var pass=document.myform.scpass.value;
+	if(email!="admin")
+	{
+		alert("Invalid User Id or password");
+		return false;
+	}
+	if(pass!="admin")
+	{
+		alert("Invalid User Id or password");
+		return false;
+	}
+}
+</script>
+    <div class="loginbox">
+        <img src="logo.png" class="avatar">
+<div class="wrap">
+ <div class="loginbox">
+        <h1>Admin Login</h1>
+        <form name="myform" method="get" onsubmit='return validate()' action="http://localhost:8080/test/CRMS/adminhome.html">
+    <p>Enter Username</p>
+            <input type="text" name="user" required>
+    <p>Enter password</p>
+            <input type="password" name="pass" required><br><br>
+<input type=submit name=submit value=submit>
+</form>
+</div>
+</body>
+</html>

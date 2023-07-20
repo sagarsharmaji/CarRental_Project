@@ -1,0 +1,33 @@
+
+<html>
+<head>
+<title>Customer Login Form</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+	
+<body>
+<ul>
+  <li><a class="active" href="login.html">Home</a></li>
+    <li><a href="process.html">Process</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  <li><a href="aboutus.html">About</a></li>
+</ul>
+
+    <div class="loginbox">
+    <img src="logo.png" class="avatar">
+        <h1>Customer Login</h1>
+        <form method="get" action="Custlogin.jsp">
+            <p><center>Username</center></p>
+            <input type="text" name="user" id="user" placeholder="Enter Username"><br><br>
+            <p><center>Password</center></p>
+            <input type="password" name="pass" id="pass" placeholder="Enter Password"><br><br>
+            <input type="submit" name="login" value="Login"><br>
+            <a href="lostpass.html">Lost your password?</a>
+            <c><a href="adminlogin.html">Login as Admin?</a></c><br>
+            <a href="signup.html">Don't have an account?</a>
+        </form>
+    </div>
+
+</body>
+
+</html>

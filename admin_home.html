@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="nav.css">
+<style>
+ body {
+  background: url("bg.jpg") no-repeat center center fixed;
+        background-size: cover;
+   font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+        height: 100vh;
+        color:white;
+        text-align:center;
+}
+
+h1{
+    font-size: 60px;
+	text-align: center;
+	padding: 16px;
+	border: none;
+    font-weight: bold;
+    color:black;
+    opacity: 0.75;
+    background: #fff;
+    transform: translate(0%, 50%);
+    box-sizing: border-box;
+    padding: 20px 20px;
+	border-radius: 10px;
+    opacity: 1;
+	width: 1550px;
+    border-bottom: 5px solid #fb007d;
+}
+
+/*
+body
+{
+font-size:20px;
+text-align:center;
+ background-color: #E05A5C;
+}
+*/
+span
+{
+font-size:50px;
+}
+.vertical-menu {
+  width: 60%;
+  height:80%;
+  margin:auto;
+  opacity: 0.75;
+padding:20px;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.vertical-menu a {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(9, 115, 19);
+}
+
+.vertical-menu a.active {
+  background-color: black;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+    <h1>Welcome to Admin home Page</h1>
+</div>
+
+<h2>
+<div class="vertical-menu">
+  <a href="#" class="active">CHOOSE AN OPERATION</a>
+<a href="search_cust.html"> Search a Customer</a>
+<a href="search_vendor.html"> Search a SP</a>
+<a href="http://localhost:8080/test/CRMS/all_sp_info.jsp"> View all SP's</a>
+<a href="http://localhost:8080/test/CRMS/all_cust_info.jsp"> View all customer details</a>
+<a href="http://localhost:8080/test/CRMS/revenue_info.jsp"> View Revenue</a>
+<a href="http://localhost:8080/test/CRMS/adminlogin.jsp" action="logout">Log Out</a>
+</h2>
+</b>
+</body>
+</html>
